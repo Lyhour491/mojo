@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Site - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #d60000;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff6600;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ffcc00;
+            color: black;
+        }
+        .main-content {
+            display: flex;
+            padding: 20px;
+        }
+        .news-container {
+            flex: 3;
+            padding-right: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        .news-item {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .news-item img {
+            width: 100%;
+            height: auto;
+        }
+        .news-item h3 {
+            font-size: 24px;
+            color: #333;
+        }
+        .news-item p {
+            font-size: 14px;
+            color: #666;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My News Website</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">World</a>
+        <a href="#">Technology</a>
+        <a href="#">Sports</a>
+        <a href="#">Entertainment</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="main-content">
+        <div class="news-container">
+            <div class="news-item">
+                <img src="image1.jpg" alt="News Image 1">
+                <h3>Breaking News: Major Event Happens</h3>
+                <p>Details about the event go here. This is the main article for the site.</p>
+            </div>
+
+            <div class="news-item">
+                <img src="image2.jpg" alt="News Image 2">
+                <h3>Latest Technology Updates</h3>
+                <p>Information about technology news and updates.</p>
+            </div>
+
+            <div class="news-item">
+                <img src="image3.jpg" alt="News Image 3">
+                <h3>Sports Update: Recent Match Results</h3>
+                <p>Latest updates from the world of sports.</p>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <h3>Popular Articles</h3>
+            <ul>
+                <li><a href="#">Popular News 1</a></li>
+                <li><a href="#">Popular News 2</a></li>
+                <li><a href="#">Popular News 3</a></li>
+                <li><a href="#">Popular News 4</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My News Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
